@@ -1,0 +1,6 @@
+# 只发布网站需要的文件，工具脚本与内部说明不推到公开仓库
+tools/
+docs/
+_tmp_qafront/
+*.zip
+*.psd
