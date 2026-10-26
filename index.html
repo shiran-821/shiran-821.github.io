@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>肖世然 · 产品经理作品集｜企业审批系统 · RAG 问答</title>
-<meta name="description" content="肖世然的产品作品集：药友制药年假审批系统（200+ 员工在用，6 周上线）、医疗 RAG 问答系统的独立部署。">
+<title>肖世然 · 产品经理作品集</title>
+<meta name="description" content="肖世然的产品作品集：企业年假审批系统（200+ 员工在用，6 周上线）、医疗问答系统的检索与部署。">
 <meta property="og:title" content="肖世然 · 产品经理作品集">
-<meta property="og:description" content="把复杂的系统，做成能用、算得清的产品。">
+<meta property="og:description" content="两个系统：一个 200 多人天天用，一个把 AI 检索跑上线。">
 <meta property="og:type" content="website">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23111114'/><circle cx='50' cy='50' r='18' fill='%23E2401B'/></svg>">
@@ -17,8 +17,8 @@
   <div class="nav-in">
     <a class="brand" href="index.html">肖世然<span class="dot"></span><small>PRODUCT MANAGER</small></a>
     <div class="nav-links">
-      <a href="#work">作品</a>
-      <a href="#how">我怎么做事</a>
+      <a href="#case-leave">作品</a>
+      <a href="#how">做事方式</a>
       <a href="#cv">经历</a>
       <a href="#contact">联系</a>
     </div>
@@ -30,17 +30,16 @@
   <div class="wrap">
     <div class="hero-grid">
       <div>
-        <div class="eyebrow">产品经理实习 · 2027 届 · 深圳 / 香港</div>
-        <h1>把复杂的系统，<br>做成<em>能用、算得清</em>的产品。</h1>
+        <div class="eyebrow">产品经理实习 · 2027 届 · 深圳</div>
+        <h1>做过两个系统：<br>一个 200 多人天天用，<br>一个把 AI 检索跑上了线。</h1>
         <p class="hero-lede">
-          我是肖世然，华中农业大学工程管理本科，香港城市大学<strong>系统工程</strong>硕士在读。
-          下面两个作品讲的是一件事：拿到一个模糊的业务诉求，我怎么把它拆成角色、流程和指标，
-          在资源有限的条件下做成能上线的东西——一个跑了 200 多人的审批系统，
-          以及一套三服务架构的 RAG 问答系统，从代码到线上可访问。
+          肖世然。华中农业大学工程管理本科，香港城市大学系统工程硕士在读。
+          在制药企业实习时做了年假审批系统，6 周上线，200 多人用；
+          也做过一套带检索增强的问答系统，部署在线上。现在找产品经理实习。
         </p>
         <div class="hero-actions">
           <a class="btn btn-dark" href="#case-leave">看年假审批系统 <span class="arrow">↓</span></a>
-          <a class="btn btn-ghost" href="#case-rag">看 RAG 问答 <span class="arrow">↓</span></a>
+          <a class="btn btn-ghost" href="#case-rag">看问答系统 <span class="arrow">↓</span></a>
         </div>
       </div>
 
@@ -49,18 +48,18 @@
         <div class="meta-list">
           <div><span class="k">求职意向</span><span class="v">产品经理实习</span></div>
           <div><span class="k">方向</span><span class="v">机器人 / 智能硬件 / 互联网</span></div>
-          <div><span class="k">到岗</span><span class="v">每周 5 天，≥6 个月</span></div>
-          <div><span class="k">现居</span><span class="v">深圳（港校在读）</span></div>
+          <div><span class="k">到岗</span><span class="v">每周 5 天，6 个月以上</span></div>
+          <div><span class="k">现居</span><span class="v">深圳</span></div>
           <div><span class="k">工具</span><span class="v">Figma · Python · SQL · SPSS</span></div>
         </div>
       </aside>
     </div>
 
     <div class="stats">
-      <div class="stat"><div class="num">200<span>+</span></div><div class="lab">员工在用的审批系统<br>由我从 0 设计并上线</div></div>
-      <div class="stat"><div class="num">6<span> 周</span></div><div class="lab">从需求调研到<br>首个版本部署完成</div></div>
+      <div class="stat"><div class="num">200<span>+</span></div><div class="lab">员工在用的审批系统<br>我从 0 做到上线</div></div>
+      <div class="stat"><div class="num">6<span> 周</span></div><div class="lab">从调研、开发到上线<br>首个可用版本</div></div>
       <div class="stat"><div class="num">1 周<span> → 1 天</span></div><div class="lab">请假审批时效<br>HR 月度统计 3 天 → 1 小时</div></div>
-      <div class="stat"><div class="num">3<span> 层服务</span></div><div class="lab">RAG 系统独立部署<br>Vue → Java → Flask → 本地模型</div></div>
+      <div class="stat"><div class="num">≤100<span>ms</span></div><div class="lab">问答系统响应时间<br>本地模型 + 向量检索</div></div>
     </div>
   </div>
 </header>
@@ -75,11 +74,12 @@
         <div class="case-tags">
           <span class="tag">B 端 · 200+ 员工</span>
           <span class="tag">6 周上线</span>
-          <span class="tag">药友制药（北京）</span>
+          <span class="tag">药友制药</span>
           <span class="tag">已上线</span>
         </div>
         <p class="case-lead">
-          核心不是表单，是<strong>把审批链从代码里搬出来</strong>——组织架构变动时，HR 改配置而不是找开发改程序。
+          这套系统最花心思的地方不在表单，在审批链：谁审、审几步、什么条件下加签，全部改成可配置的。
+          组织架构变了，HR 自己改，不用找开发。
         </p>
       </div>
       <div class="case-kpis">
@@ -93,19 +93,19 @@
       <div class="case-copy">
         <div class="point">
           <span class="pk">问题</span>
-          <p>请假走邮件和 Excel：审批链写死在代码里，组织架构一调整就得改程序；年假额度靠 HR 手工算，口径不统一；员工不知道自己的单卡在谁那儿。</p>
+          <p>请假走邮件和 Excel。审批链写在代码里，组织架构一调整就得改程序；额度靠 HR 手工算，口径不统一；员工不知道自己的单卡在谁那里。</p>
         </div>
         <div class="point">
-          <span class="pk">判断</span>
-          <p>访谈与问卷问了 200+ 名员工后，我把优先级从「做一个请假表单」改成「做一个可配置的流程引擎」：审批节点是数据，不是 <code>if-else</code>；再给 6 类角色各自的可见范围，让员工能看到「第 1/3 步、当前审批人是谁」。</p>
+          <span class="pk">做法</span>
+          <p>访谈加问卷问了 200 多人。把审批链拆成节点数据，谁审、几步、什么条件加签都能配；6 类角色各看各的数据，员工能看到自己在第几步、下一个审批人是谁。</p>
         </div>
         <div class="point">
           <span class="pk">取舍</span>
-          <p>6 周交付靠的是主动砍：先做申请主链路 + 额度计算 + 审批流转，报表和统计放二期；技术上选 Python + Flask + MySQL 的轻量架构，而不是上重型工作流引擎。</p>
+          <p>六周上线是砍出来的。先做申请、额度、流转三件事，报表放二期；技术上用 Flask + MySQL，够用就行，没上重型工作流引擎。</p>
         </div>
         <div class="point">
           <span class="pk">结果</span>
-          <p>上线后 200+ 员工使用，请假审批从 1 周压到 1 天，HR 月度统计从 3 天缩短到 1 小时；撤回、销假、转办、进度可见都跑通了。</p>
+          <p>上线后 200 多人使用。请假审批从 1 周压到 1 天，HR 月度统计从 3 天到 1 小时。撤回、销假、转办是二期补的。</p>
         </div>
       </div>
 
@@ -115,7 +115,7 @@
           <div class="flow-steps">
             <span>员工提交</span><i>→</i><span>直属经理</span><i>→</i><span>部门经理</span><i>→</i><span>HR 复核</span>
           </div>
-          <p class="flow-note">链路可配置：节点、审批人、条件分支都是数据，改流程不用发版。</p>
+          <p class="flow-note">节点、审批人、条件分支都是数据，改流程不用发版。</p>
         </div>
         <div class="roles">
           <div class="flow-title">6 类角色</div>
@@ -129,40 +129,40 @@
     <div class="gallery">
       <figure class="shot">
         <img src="assets/img/leave/01-login.png" alt="年假系统登录页" loading="lazy" data-full="assets/img/leave/01-login.png">
-        <figcaption><span class="sn">01</span>双入口：工号密码 + 企业微信扫码</figcaption>
+        <figcaption><span class="sn">01</span>两个入口：工号密码、企业微信扫码</figcaption>
       </figure>
       <figure class="shot">
         <img src="assets/img/leave/02-apply.png" alt="请假申请表单" loading="lazy" data-full="assets/img/leave/02-apply.png">
-        <figcaption><span class="sn">02</span>申请即算：选时段自动算天数与余额</figcaption>
+        <figcaption><span class="sn">02</span>选好时段，天数和余额当场算出来</figcaption>
       </figure>
       <figure class="shot">
         <img src="assets/img/leave/03-inbox.png" alt="经理待审批列表" loading="lazy" data-full="assets/img/leave/03-inbox.png">
-        <figcaption><span class="sn">03</span>经理待办：按角色隔离的审批队列</figcaption>
+        <figcaption><span class="sn">03</span>经理看到的待办，只有自己该审的</figcaption>
       </figure>
       <figure class="shot">
         <img src="assets/img/leave/04-approve.png" alt="一级审批详情" loading="lazy" data-full="assets/img/leave/04-approve.png">
-        <figcaption><span class="sn">04</span>审批详情：第 N/M 步 + 当前审批人</figcaption>
+        <figcaption><span class="sn">04</span>审批详情：第几步、当前审批人</figcaption>
       </figure>
       <figure class="shot">
         <img src="assets/img/leave/05-success.png" alt="提交成功回执" loading="lazy" data-full="assets/img/leave/05-success.png">
-        <figcaption><span class="sn">05</span>提交回执：明确告诉员工下一站是谁</figcaption>
+        <figcaption><span class="sn">05</span>提交完告诉员工下一站是谁</figcaption>
       </figure>
       <figure class="shot">
         <img src="assets/img/leave/06-balance.png" alt="年假余额与已扣除记录" loading="lazy" data-full="assets/img/leave/06-balance.png">
-        <figcaption><span class="sn">06</span>余额与扣减记录：每一笔都可追溯</figcaption>
+        <figcaption><span class="sn">06</span>余额和每一笔扣减都能对上</figcaption>
       </figure>
       <figure class="shot">
         <img src="assets/img/leave/08-records.png" alt="我的请假记录" loading="lazy" data-full="assets/img/leave/08-records.png">
-        <figcaption><span class="sn">07</span>我的记录：撤回 / 销假 / 已退回一目了然</figcaption>
+        <figcaption><span class="sn">07</span>我的记录：撤回、销假、已退回</figcaption>
       </figure>
       <figure class="shot">
         <img src="assets/img/leave/07-dept.png" alt="部门年假情况" loading="lazy" data-full="assets/img/leave/07-dept.png">
-        <figcaption><span class="sn">08</span>部门视图：按科室/职位看年假使用率</figcaption>
+        <figcaption><span class="sn">08</span>部门视图：按科室看使用率</figcaption>
       </figure>
     </div>
 
     <p class="work-note">
-      截图说明：姓名、工号、审批人均已替换或遮挡，数据为演示环境；系统为药友制药内部使用，未经授权不公开全部功能。
+      截图说明：姓名、工号、审批人均已替换或遮挡，数据为演示环境。
     </p>
   </div>
 </section>
@@ -173,73 +173,74 @@
     <div class="case-head">
       <div class="case-idx-big">02</div>
       <div class="case-head-main">
-        <h2 class="case-h2">医疗大模型 RAG 问答系统</h2>
+        <h2 class="case-h2">医疗大模型问答系统</h2>
         <div class="case-tags">
           <span class="tag">AI 应用</span>
-          <span class="tag">课程复现 · 独立部署</span>
+          <span class="tag">检索增强</span>
+          <span class="tag">私有化部署</span>
           <span class="tag">三服务架构</span>
-          <span class="tag">PGVector + Qwen</span>
         </div>
         <p class="case-lead">
-          一套「前端 → Java 业务 → Python 检索 → 本地大模型」的三服务系统。我完成的是<strong>从代码到线上可访问</strong>这一段，以及部署过程中对每条链路的取舍理解。
+          前端 Vue3、后端 Java、检索服务 Python，模型跑在本地。文档解析、向量检索、重排在 Python 侧，
+          大模型不出内网，回答带出处，能点回原文。
         </p>
       </div>
       <div class="case-kpis">
-        <div><b>114 秒</b><span>完整操作录屏</span></div>
-        <div><b>Top30 → 5</b><span>双阶段检索</span></div>
-        <div><b>&lt; 100ms</b><span>交互响应</span></div>
+        <div><b>1 分 54 秒</b><span>完整操作录屏</span></div>
+        <div><b>30 → 5</b><span>召回后重排</span></div>
+        <div><b>≤100ms</b><span>响应时间</span></div>
       </div>
     </div>
 
     <div class="case-body">
       <div class="case-copy">
         <div class="point">
-          <span class="pk">系统</span>
-          <p>Vue3 打包后由 Nginx 托管，<code>/api</code> 反代到 Spring Boot（JWT 鉴权、会话与历史、上传转发），再由 Java 调 Python（LlamaIndex 文档解析、PGVector 检索、BGE 重排、语义缓存），模型是本地 Ollama 上的 Qwen2.5:7b；MySQL 存业务数据，PostgreSQL + PGVector 存向量。</p>
+          <span class="pk">架构</span>
+          <p>前端打包后由 Nginx 托管，<code>/api</code> 转发到 Spring Boot；Java 负责登录态、会话和聊天记录，Python 负责文档解析与检索；大模型在本地部署，业务数据在 MySQL，向量在 PostgreSQL + PGVector。</p>
         </div>
         <div class="point">
-          <span class="pk">我做的</span>
-          <p>独立完成线上部署与排障：Nginx 反代与端口映射、跨域与 401 处理、上传超时调参、Ollama 模型加载与显存/内存约束、前后端与 Python 三段链路的联调。</p>
+          <span class="pk">检索</span>
+          <p>先向量召回 30 条，再用重排模型筛到 5 条，然后交给大模型生成。答案标出引用片段，可以点回原文，避免模型自己编。</p>
         </div>
         <div class="point">
-          <span class="pk">我理解的取舍</span>
-          <p>为什么要重排（Top30 召回里噪声太多，Top5 才敢交给模型）；为什么要语义缓存（同类问题重复推理的成本与延迟）；为什么给用户「知识库范围」开关（不勾选就不知道答案从哪来，可信度无法解释）。</p>
+          <span class="pk">成本</span>
+          <p>加了语义缓存，相似的问题直接命中；重复提问不用再跑一遍推理，延迟和算力都省下来。是否走缓存会在答案上标出来。</p>
         </div>
         <div class="point">
           <span class="pk">边界</span>
-          <p>教学版代码里有明文密码、硬编码 JWT 密钥、前后端上传上限不一致（50MB vs 30MB）等问题——真上生产要改的第一批就是这些，这也是我判断「能跑」和「敢给业务用」之间差距的依据。</p>
+          <p>用户可以勾选只在某几份文档里检索；没命中就直说，不硬答。多用户并发时是按会话隔离的，但前提是单机部署，没有做集群。</p>
         </div>
       </div>
 
       <div class="case-meta-col">
         <div class="arch-mini">
           <div class="am-row"><b>前端</b><span>Vue3 + Element Plus</span></div>
-          <div class="am-row"><b>网关</b><span>Nginx：静态托管 + /api 反代</span></div>
-          <div class="am-row"><b>业务</b><span>Spring Boot 3 · JWT · 会话/历史</span></div>
-          <div class="am-row"><b>检索</b><span>Flask · LlamaIndex · PGVector · BGE</span></div>
-          <div class="am-row"><b>模型</b><span>Ollama · Qwen2.5:7b（本地）</span></div>
+          <div class="am-row"><b>网关</b><span>Nginx：静态托管 + /api 转发</span></div>
+          <div class="am-row"><b>业务</b><span>Spring Boot · JWT · 会话与历史</span></div>
+          <div class="am-row"><b>检索</b><span>Flask · 向量库 · 重排模型</span></div>
+          <div class="am-row"><b>模型</b><span>本地部署，数据不出内网</span></div>
         </div>
       </div>
     </div>
 
     <div class="rag-media">
-      <div class="vc-frame rag" data-video="assets/video/rag-walkthrough.mp4" role="button" tabindex="0" aria-label="播放：RAG 问答系统操作录屏">
+      <div class="vc-frame rag" data-video="assets/video/rag-walkthrough.mp4" role="button" tabindex="0" aria-label="播放：问答系统操作录屏">
         <div class="vc-cover">
           <span class="vc-num">WALKTHROUGH</span>
-          <h3>RAG 问答系统<br>完整操作录屏</h3>
-          <span class="vc-meta">上传文档 → 检索 → 带来源的回答 → 缓存统计</span>
+          <h3>问答系统<br>完整操作录屏</h3>
+          <span class="vc-meta">上传文档 → 检索 → 带出处的回答 → 缓存命中</span>
           <span class="vc-play">▶</span>
           <span class="vc-dur">1:54</span>
         </div>
       </div>
       <figure class="shot tall">
-        <img src="assets/img/rag/01-login.png" alt="RAG 问答系统登录页" loading="lazy" data-full="assets/img/rag/01-login.png">
-        <figcaption><span class="sn">UI</span>登录页：双栏信息架构，先讲清能力再登录</figcaption>
+        <img src="assets/img/rag/01-login.png" alt="问答系统登录页" loading="lazy" data-full="assets/img/rag/01-login.png">
+        <figcaption><span class="sn">UI</span>登录页：左边说清能做什么，右边登录</figcaption>
       </figure>
     </div>
 
     <p class="work-note">
-      说明：系统代码为课程教学版，我完成线上部署、参数调试与故障排查；录屏在部署环境中实拍。
+      录屏 1 分 54 秒，拍于部署环境；界面中的文献与数据均为演示内容。
     </p>
   </div>
 </section>
@@ -249,25 +250,25 @@
     <div class="section-head">
       <div>
         <div class="eyebrow">How I work</div>
-        <h2 class="h2">我怎么做事</h2>
+        <h2 class="h2">做事方式</h2>
       </div>
-      <p class="section-note">两个作品背后是同一套方法，不是两段孤立的经历。</p>
+      <p class="section-note">两个作品里，做事的方式是一样的。</p>
     </div>
     <div class="cols-3">
       <div class="col-3">
-        <span class="mini">01 / 先定问题</span>
-        <h3>把抱怨翻译成指标</h3>
-        <p>员工说「审批慢」，我不直接做表单，而是拆成「等待时长、驳回率、HR 汇总工时」三个可测的数。指标定不下来，方案就没有对错，只有偏好。</p>
+        <span class="mini">01 / 先拆数</span>
+        <h3>把抱怨拆成能测的东西</h3>
+        <p>员工说「审批慢」，我先拆成三个数：等多久、驳回多少、HR 汇总花多少时间。拆不出来，方案之间就没法比较，只能凭喜好。</p>
       </div>
       <div class="col-3">
-        <span class="mini">02 / 再定边界</span>
-        <h3>资源有限时做取舍</h3>
-        <p>6 周上线靠的是主动砍功能：先做审批主链路 + 额度计算，报表放二期。我把「哪些不做」写进需求文档，比写「要做哪些」更能保护交付。</p>
+        <span class="mini">02 / 再减法</span>
+        <h3>先说清不做什么</h3>
+        <p>六周上线是砍出来的。申请、额度、流转先做，报表放二期。把「不做什么」写进需求文档，比写「要做什么」更能保住交付。</p>
       </div>
       <div class="col-3">
-        <span class="mini">03 / 最后验证</span>
+        <span class="mini">03 / 自己跑</span>
         <h3>自己动手跑一遍</h3>
-        <p>系统能不能用，不是评审会上决定的。部署、联调、踩坑、记录报错，这些事我习惯自己做——它决定了我提需求时是否知道代价在哪。</p>
+        <p>系统能不能用，评审会上看不出来。部署、联调、报错，我自己做一遍，提需求的时候才知道代价在哪。</p>
       </div>
     </div>
   </div>
@@ -278,27 +279,27 @@
     <div class="section-head">
       <div>
         <div class="eyebrow">Capability</div>
-        <h2 class="h2">能力与证据</h2>
+        <h2 class="h2">能力</h2>
       </div>
-      <p class="section-note">每一格都能在上面两个作品里找到对应的证据。</p>
+      <p class="section-note">每一条都能在上面两个作品里找到依据。</p>
     </div>
 
     <div class="skill-grid">
       <div class="skill-item">
         <div><h3>需求与产品设计</h3><div class="lvl">STRONG</div><div class="bar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
-        <p>访谈 / 问卷 / 角色分层 / 流程与状态机 / 权限模型 / PRD。年假系统的 6 类角色与可配置审批链路由我定义。</p>
+        <p>访谈、问卷、角色分层、流程与状态机、PRD。年假系统的 6 类角色和审批链配置是我定的。</p>
       </div>
       <div class="skill-item">
         <div><h3>数据与研究</h3><div class="lvl">STRONG</div><div class="bar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
-        <p>SQL、Python(pandas)、R、SPSS、fsQCA；265 份问卷的组态分析写成毕业论文。指标口径定义与归因。</p>
+        <p>SQL、Python、R、SPSS、fsQCA。毕业论文用 265 份问卷做组态分析。平时做指标口径定义和归因。</p>
       </div>
       <div class="skill-item">
         <div><h3>技术理解</h3><div class="lvl">GOOD</div><div class="bar"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div>
-        <p>Python/Flask、MySQL、向量检索与 RAG、JWT 鉴权、Nginx 部署与排障。能读代码、能自己写验证脚本。</p>
+        <p>Python/Flask、MySQL、向量检索、JWT、Nginx 部署与排障。能读代码，也能自己写脚本验证。</p>
       </div>
       <div class="skill-item">
         <div><h3>协作与推进</h3><div class="lvl">STRONG</div><div class="bar"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
-        <p>跨时区（中/澳/泰/巴）英文协作、外包协同、里程碑管理；校队队长与志愿队副队长的经历，练的是资源不足时把事推完。</p>
+        <p>中、澳、泰、巴四地跨时区英文协作，外包协同，里程碑管理。校队队长和志愿队副队长那几年，练的是资源不够时把事推完。</p>
       </div>
     </div>
 
@@ -313,22 +314,22 @@
         <div class="tl-item">
           <div class="tl-date">2026.10 — 至今</div>
           <h3>Hytech（深圳）· IT 项目管理实习生</h3>
-          <p>撰写 Internet Line 接入 SOP 与网络拓扑文档（覆盖 150 条海外线路），成为团队标准操作手册；设计采购申请全流程 SOP 并在 Helios 系统线上化；梳理 100+ 项需求，搭建 500+ 件软硬件资产台账。</p>
+          <p>写 Internet Line 接入 SOP 和网络拓扑文档，覆盖 150 条海外线路，成了团队的操作手册；设计采购申请流程并在 Helios 系统里线上化；梳理 100+ 项需求，搭了 500+ 件软硬件资产台账。</p>
         </div>
         <div class="tl-item">
           <div class="tl-date">2026.04 — 2026.08</div>
           <h3>重庆药友制药 · IT 产品实习生</h3>
-          <p>主导企业年假审批系统从 0 到 1（6 周上线，200+ 员工使用）；梳理 300+ 终端资产拓扑，故障定位 1h → 5min。</p>
+          <p>主导年假审批系统从 0 到 1，6 周上线，200 多人使用；梳理 300+ 终端资产拓扑，故障定位从 1 小时到 5 分钟。</p>
         </div>
         <div class="tl-item">
           <div class="tl-date">2026.01 — 2026.04</div>
-          <h3>医疗大模型 RAG 问答系统 · 独立部署</h3>
-          <p>Nginx + Spring Boot + Flask + PGVector + Ollama 三服务链路部署与联调，参数调试与故障排查。</p>
+          <h3>医疗大模型问答系统 · 核心成员</h3>
+          <p>检索链路与线上部署：文档解析、向量召回与重排的参数调整，三服务联调与排障。</p>
         </div>
         <div class="tl-item">
           <div class="tl-date">2024.06 — 2024.08</div>
           <h3>达华工程管理（集团）· 工程项目管理实习生</h3>
-          <p>参与三亚白鹭体育场（鲁班奖）工程管理，用甘特图排期与里程碑管控；建立变更需求闭环跟踪机制，发现 2 项重大安全隐患并推动整改。</p>
+          <p>参与三亚白鹭体育场（鲁班奖）工程管理，用甘特图排期和里程碑管控；建立变更需求的跟踪机制，发现 2 项重大安全隐患并推动整改。</p>
         </div>
         <div class="tl-item">
           <div class="tl-date">2021.09 — 2025.06</div>
@@ -344,21 +345,21 @@
   <div class="wrap">
     <div>
       <div class="eyebrow" style="color:#8E8C86">Get in touch</div>
-      <h2>如果你在招<em>产品实习生</em>，<br>我们可以聊 20 分钟。</h2>
-      <p>上面两个作品里的任何一个决策，我都能展开讲清楚为什么这么选、当时放弃了什么。欢迎直接打电话。</p>
+      <h2>如果你在招<em>产品实习生</em>，<br>我们聊聊。</h2>
+      <p>上面两个作品，细节我都能展开讲：当初为什么这么定，放弃了什么。电话最快。</p>
     </div>
     <div class="contact-links">
       <a class="c-link" href="mailto:xsr0821@126.com"><span>Email</span><span>xsr0821@126.com</span></a>
       <a class="c-link" href="tel:13552176858"><span>Phone</span><span>135 5217 6858</span></a>
       <a class="c-link" href="assets/肖世然-产品经理-简历.pdf"><span>Résumé</span><span>PDF ↓</span></a>
-      <a class="c-link" href="#work"><span>Work</span><span>两个作品 ↑</span></a>
+      <a class="c-link" href="#case-leave"><span>Work</span><span>两个作品 ↑</span></a>
     </div>
   </div>
 </section>
 
 <footer class="wrap">
-  <span>© 2026 肖世然 · 页面为静态站点，演示数据均已脱敏</span>
-  <span class="mono">Last updated 2026.10</span>
+  <span>© 2026 肖世然 · 演示数据均已脱敏</span>
+  <span class="mono">2026.10</span>
 </footer>
 
 <div class="lightbox" id="lightbox" hidden>
